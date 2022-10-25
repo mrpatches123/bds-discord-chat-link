@@ -1,0 +1,51 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "discord-chat-link",
+		"description": "Test Pack",
+		"uuid": "c0016180-0d5f-490d-9961-6385224aa479",
+		"version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			19,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Test Pack",
+			"uuid": "c02f0047-78f8-4d63-8dc6-5cccb5442e6e",
+			"version": [
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "53dde6a4-8ea9-4264-a9b6-5649c74278c8",
+			"entry": "scripts/main.js",
+			"version": "1.0.0-beta"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "mojang-minecraft",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "mojang-minecraft-ui",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "mojang-net",
+			"version": "1.0.0-beta"
+		}
+	]
+}
